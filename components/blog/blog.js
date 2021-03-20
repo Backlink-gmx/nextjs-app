@@ -13,7 +13,7 @@ const Blog = () => {
                 </div>
                 <div>
                     <h3>1. Reparieren und verkaufen Sie es als Gebrauchtwagen </h3>
-                    <p>Manchmal ist es am besten, das defekte Auto vor dem Verkauf zu reparieren. Einfache Reparaturen sollten immer frühzeitig durchgeführt werden, da sie nicht viel kosten. Wenn Ihr Motor vollständig durchbrennt, müssen Sie ihn zu einem Mechaniker bringen. Einige Anzeichen, die darauf hinweisen, dass sich der Motor in einem kritischen Zustand befindet, sind Klopf-, Klirr- und Klopfgeräusche. Ein seltsamer Geruch vom Motor kann auch auf einen beschädigten Motor hinweisen.</p>
+                    <p>Manchmal ist es am besten, das defekte Auto vor dem Verkauf zu reparieren. Einfache Reparaturen sollten immer frühzeitig durchgeführt werden, da sie nicht viel kosten. Wenn Ihr <a style={{color:'red',fontWeight:'bold'}} href="https://www.mein-autolexikon.de/motor.html" target="_blank"> Motor</a> vollständig durchbrennt, müssen Sie ihn zu einem Mechaniker bringen. Einige Anzeichen, die darauf hinweisen, dass sich der Motor in einem kritischen Zustand befindet, sind Klopf-, Klirr- und Klopfgeräusche. Ein seltsamer Geruch vom Motor kann auch auf einen beschädigten Motor hinweisen.</p>
                 </div>
                 <div>
                     <h3>2. Verkaufen sie das defekte Auto online</h3>

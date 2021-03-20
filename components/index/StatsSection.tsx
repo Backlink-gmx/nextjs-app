@@ -57,9 +57,9 @@ export const StatsSection: React.FunctionComponent<ThemeProps> = (props) => {
             aria-label="Document Card."
             style={{ textAlign: 'center', maxWidth: '100%' }}
           > 
-            <div style={{backgroundColor: iconColor, height: 350, width: '100%', background: iconColor}}>
-              <DocumentCardImage height={350} imageFit={ImageFit.cover} imageSrc={imgSrc}/>
-            </div>
+            {/* <div style={{backgroundColor: iconColor, height: 350, width: '100%', background: iconColor}}>
+              <DocumentCardImage height={350} imageFit={ImageFit.cover} imageSrc={''}/>
+            </div> */}
             <DocumentCardDetails>
               <div className={ inView ? 'animate--fade-in-left' : '' }>
                 <DocumentCardTitle title="Die Möglichkeiten ein defektes Auto online zu verkaufen" shouldTruncate />

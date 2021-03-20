@@ -10,3 +10,22 @@
     text-align: justify;
     word-spacing: 6px;
 }
+.w{
+    width: 50%;
+    padding: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .aa{
+        display: block;
+        width: 100%;
+        /* justify-content: space-evenly; */
+    }
+    .j{
+        width: 100%;
+        padding: 10px;
+    }
+    .w{
+        width: 100%;
+        padding: 20px;
+    }
+}

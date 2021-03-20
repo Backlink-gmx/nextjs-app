@@ -1,4 +1,5 @@
 import React, { useEffect, useState} from 'react'
+import styl from '../blog/blog.module.css'
 import {
   DocumentCard,
   DocumentCardActivity,
@@ -22,7 +23,7 @@ export const StatsSection: React.FunctionComponent<ThemeProps> = (props) => {
   const [ref, inView] = useInView({
     rootMargin: '-100px 0px',
   })
-  const imgSrc = "https://c8.alamy.com/comp/F4NBF6/repair-garage-cars-hoist-F4NBF6.jpg"
+  const imgSrc = "https://i.pinimg.com/originals/3e/3f/a3/3e3fa377f87714932e3d6cdf28890d46.jpg"
   const { theme=dark } = props
   let iconColor
   let textColor
@@ -67,10 +68,11 @@ export const StatsSection: React.FunctionComponent<ThemeProps> = (props) => {
             </DocumentCardDetails>
           </DocumentCard>
       </div>
-      <div style={{width: '50%', margin: 'auto', textAlign: 'left'}} ref={ref}>
-        <div style={{ padding: '0 10%', marginTop: '50px'}}>
+      <div className={styl.w} ref={ref}>
+        <div style={{marginTop: '50px'}}>
           <div className={ inView ? 'animate--fade-in-left' : ''}>
-            <h2 style={titleStyle}>
+            <div className={styl.j}>
+            <h2>
             Die Möglichkeiten ein defektes Auto online zu verkaufen
             </h2>
             <span style={subtitleStyle}>
@@ -81,6 +83,7 @@ export const StatsSection: React.FunctionComponent<ThemeProps> = (props) => {
             </div>
             <div style={subtitleStyle}>
             Finden Sie heraus, wie Sie 
+            </div>
             </div>
           </div>
 
